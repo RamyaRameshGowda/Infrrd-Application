@@ -1,0 +1,89 @@
+﻿@model IEnumerable<Infrrd.ValueObjects.DepartmentDetailsView>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: center;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+
+    .button {
+        border: none;
+        color: white;
+        padding: 12px 30px;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        float: left;
+    }
+
+    .create {
+        background-color: #4CAF50;
+        position: relative;
+    float: right;
+    }
+    /* Create */
+</style>
+
+
+<div class="text-center">
+    <button type="button" class="button create" onclick="location.href='@Url.Action("Create", "Home")'">Create</button>
+    <table>
+
+
+        <tr>
+            <th>Category/Year</th>
+            <th>Before 2018</th>
+            <th>2018</th>
+            <th>2019</th>
+            <th>2020</th>
+            <th>After 2020</th>
+            <th>Total</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.CategoryName</td>
+                <td>@item.YearOne</td>
+                <td>@item.YearTwo</td>
+                <td>@item.YearThree</td>
+                <td>@item.YearFour</td>
+                <td>@item.YearFive</td>
+                <td>@item.TotalAmount</td>
+            </tr>
+            @*<tr>
+                <td>Total</td>
+                <td>@item.SumOfYearBefore2018</td>
+                <td>@item.SumOfYear2018</td>
+                <td>@item.SumOfYear2019</td>
+                <td>@item.SumOfYear2020</td>
+                <td>@item.SumOfYearAfter2020</td>
+            </tr>*@
+
+        }
+    <tr>
+        <td>Total</td>
+
+        <td>@Model.First().SumOfYearBefore2018</td>
+        <td>@Model.First().SumOfYear2018</td>
+        <td>@Model.First().SumOfYear2019</td>
+        <td>@Model.First().SumOfYear2020</td>
+        <td>@Model.First().SumOfYearAfter2020</td>
+        <td>@Model.First().TotalYearSum</td>
+    </tr>
+
+    </table>
+</div>

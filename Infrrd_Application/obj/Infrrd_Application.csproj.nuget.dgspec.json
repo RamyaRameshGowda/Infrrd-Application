@@ -1,0 +1,491 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Infrrd Application\\Infrrd_Application\\Infrrd_Application.csproj": {}
+  },
+  "projects": {
+    "D:\\Infrrd Application\\Business.Contract\\Business.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Infrrd Application\\Business.Contract\\Business.Contract.csproj",
+        "projectName": "Business.Contract",
+        "projectPath": "D:\\Infrrd Application\\Business.Contract\\Business.Contract.csproj",
+        "packagesPath": "C:\\Users\\rramesh\\.nuget\\packages\\",
+        "outputPath": "D:\\Infrrd Application\\Business.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rramesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\Infrrd Application\\DataAccess.Model\\DataAccess.Model.csproj": {
+                "projectPath": "D:\\Infrrd Application\\DataAccess.Model\\DataAccess.Model.csproj"
+              },
+              "D:\\Infrrd Application\\Infrrd.ValueObjects\\Infrrd.ValueObjects.csproj": {
+                "projectPath": "D:\\Infrrd Application\\Infrrd.ValueObjects\\Infrrd.ValueObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Infrrd Application\\Business.Implementation\\Business.Implementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Infrrd Application\\Business.Implementation\\Business.Implementation.csproj",
+        "projectName": "Business.Implementation",
+        "projectPath": "D:\\Infrrd Application\\Business.Implementation\\Business.Implementation.csproj",
+        "packagesPath": "C:\\Users\\rramesh\\.nuget\\packages\\",
+        "outputPath": "D:\\Infrrd Application\\Business.Implementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rramesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\Infrrd Application\\Business.Contract\\Business.Contract.csproj": {
+                "projectPath": "D:\\Infrrd Application\\Business.Contract\\Business.Contract.csproj"
+              },
+              "D:\\Infrrd Application\\DataAccess.Contract\\DataAccess.Contract.csproj": {
+                "projectPath": "D:\\Infrrd Application\\DataAccess.Contract\\DataAccess.Contract.csproj"
+              },
+              "D:\\Infrrd Application\\Infrrd.ValueObjects\\Infrrd.ValueObjects.csproj": {
+                "projectPath": "D:\\Infrrd Application\\Infrrd.ValueObjects\\Infrrd.ValueObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Infrrd Application\\DataAccess.Contract\\DataAccess.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Infrrd Application\\DataAccess.Contract\\DataAccess.Contract.csproj",
+        "projectName": "DataAccess.Contract",
+        "projectPath": "D:\\Infrrd Application\\DataAccess.Contract\\DataAccess.Contract.csproj",
+        "packagesPath": "C:\\Users\\rramesh\\.nuget\\packages\\",
+        "outputPath": "D:\\Infrrd Application\\DataAccess.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rramesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\Infrrd Application\\DataAccess.Model\\DataAccess.Model.csproj": {
+                "projectPath": "D:\\Infrrd Application\\DataAccess.Model\\DataAccess.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Infrrd Application\\DataAccess.Implementation\\DataAccess.Implementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Infrrd Application\\DataAccess.Implementation\\DataAccess.Implementation.csproj",
+        "projectName": "DataAccess.Implementation",
+        "projectPath": "D:\\Infrrd Application\\DataAccess.Implementation\\DataAccess.Implementation.csproj",
+        "packagesPath": "C:\\Users\\rramesh\\.nuget\\packages\\",
+        "outputPath": "D:\\Infrrd Application\\DataAccess.Implementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rramesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "D:\\Infrrd Application\\DataAccess.Contract\\DataAccess.Contract.csproj": {
+                "projectPath": "D:\\Infrrd Application\\DataAccess.Contract\\DataAccess.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Infrrd Application\\DataAccess.Model\\DataAccess.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Infrrd Application\\DataAccess.Model\\DataAccess.Model.csproj",
+        "projectName": "DataAccess.Model",
+        "projectPath": "D:\\Infrrd Application\\DataAccess.Model\\DataAccess.Model.csproj",
+        "packagesPath": "C:\\Users\\rramesh\\.nuget\\packages\\",
+        "outputPath": "D:\\Infrrd Application\\DataAccess.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rramesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Infrrd Application\\Infrrd.ValueObjects\\Infrrd.ValueObjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Infrrd Application\\Infrrd.ValueObjects\\Infrrd.ValueObjects.csproj",
+        "projectName": "Infrrd.ValueObjects",
+        "projectPath": "D:\\Infrrd Application\\Infrrd.ValueObjects\\Infrrd.ValueObjects.csproj",
+        "packagesPath": "C:\\Users\\rramesh\\.nuget\\packages\\",
+        "outputPath": "D:\\Infrrd Application\\Infrrd.ValueObjects\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rramesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Infrrd Application\\Infrrd_Application\\Infrrd_Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Infrrd Application\\Infrrd_Application\\Infrrd_Application.csproj",
+        "projectName": "Infrrd_Application",
+        "projectPath": "D:\\Infrrd Application\\Infrrd_Application\\Infrrd_Application.csproj",
+        "packagesPath": "C:\\Users\\rramesh\\.nuget\\packages\\",
+        "outputPath": "D:\\Infrrd Application\\Infrrd_Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rramesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "D:\\Infrrd Application\\Business.Contract\\Business.Contract.csproj": {
+                "projectPath": "D:\\Infrrd Application\\Business.Contract\\Business.Contract.csproj"
+              },
+              "D:\\Infrrd Application\\Business.Implementation\\Business.Implementation.csproj": {
+                "projectPath": "D:\\Infrrd Application\\Business.Implementation\\Business.Implementation.csproj"
+              },
+              "D:\\Infrrd Application\\DataAccess.Contract\\DataAccess.Contract.csproj": {
+                "projectPath": "D:\\Infrrd Application\\DataAccess.Contract\\DataAccess.Contract.csproj"
+              },
+              "D:\\Infrrd Application\\DataAccess.Implementation\\DataAccess.Implementation.csproj": {
+                "projectPath": "D:\\Infrrd Application\\DataAccess.Implementation\\DataAccess.Implementation.csproj"
+              },
+              "D:\\Infrrd Application\\Infrrd.ValueObjects\\Infrrd.ValueObjects.csproj": {
+                "projectPath": "D:\\Infrrd Application\\Infrrd.ValueObjects\\Infrrd.ValueObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0-preview.7.20365.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0-preview.7.20365.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.3, 3.0.3]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

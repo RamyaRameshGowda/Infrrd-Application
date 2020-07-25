@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrrd_Application", "Infrrd_Application.csproj", "{0D1855FA-CFA0-43B1-8A1A-24771CC633AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation Layer", "Presentation Layer", "{460ED5ED-B92D-4E80-BCD9-DB3388D0983B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Layer", "Business Layer", "{CF9DA16A-2E5F-4D0F-9B22-C3E19D70ADEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business.Contract", "..\Business.Contract\Business.Contract.csproj", "{299569B6-608E-43C5-9218-812CEF8E023A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business.Implementation", "..\Business.Implementation\Business.Implementation.csproj", "{7F8C9FA3-AD73-4031-8949-724114F64D7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess Layer", "DataAccess Layer", "{8CD4086B-F6D1-4951-A3F2-08E825EF3E56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess.Contract", "..\DataAccess.Contract\DataAccess.Contract.csproj", "{5DEE1848-8D0C-4E60-B96C-B1EA505E08A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess.Implementation", "..\DataAccess.Implementation\DataAccess.Implementation.csproj", "{ABCAB6DB-DF6A-42A3-B79E-8DDE2CD2A93C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess.Model", "..\DataAccess.Model\DataAccess.Model.csproj", "{56413A77-F0E4-431A-9CCE-825E1E6676E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application Common Layer", "Application Common Layer", "{5CEF3B5D-58D7-41DE-AB19-D1C6017ADB55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrrd.ValueObjects", "..\Infrrd.ValueObjects\Infrrd.ValueObjects.csproj", "{713DB6A0-BB3D-45C3-B284-8CC33C823305}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DB Scripts", "DB Scripts", "{966C9529-28BC-47F8-9E65-281B4BC0FCC1}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\rramesh\Desktop\Script\Create_Category_Table.sql = C:\Users\rramesh\Desktop\Script\Create_Category_Table.sql
+		C:\Users\rramesh\Desktop\Script\Create_DepartmentDetails_Table.sql = C:\Users\rramesh\Desktop\Script\Create_DepartmentDetails_Table.sql
+		C:\Users\rramesh\Desktop\Script\Insert_Seed_Data.sql = C:\Users\rramesh\Desktop\Script\Insert_Seed_Data.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D1855FA-CFA0-43B1-8A1A-24771CC633AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D1855FA-CFA0-43B1-8A1A-24771CC633AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D1855FA-CFA0-43B1-8A1A-24771CC633AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D1855FA-CFA0-43B1-8A1A-24771CC633AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{299569B6-608E-43C5-9218-812CEF8E023A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{299569B6-608E-43C5-9218-812CEF8E023A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{299569B6-608E-43C5-9218-812CEF8E023A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{299569B6-608E-43C5-9218-812CEF8E023A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F8C9FA3-AD73-4031-8949-724114F64D7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8C9FA3-AD73-4031-8949-724114F64D7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8C9FA3-AD73-4031-8949-724114F64D7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8C9FA3-AD73-4031-8949-724114F64D7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DEE1848-8D0C-4E60-B96C-B1EA505E08A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DEE1848-8D0C-4E60-B96C-B1EA505E08A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DEE1848-8D0C-4E60-B96C-B1EA505E08A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DEE1848-8D0C-4E60-B96C-B1EA505E08A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABCAB6DB-DF6A-42A3-B79E-8DDE2CD2A93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABCAB6DB-DF6A-42A3-B79E-8DDE2CD2A93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABCAB6DB-DF6A-42A3-B79E-8DDE2CD2A93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABCAB6DB-DF6A-42A3-B79E-8DDE2CD2A93C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56413A77-F0E4-431A-9CCE-825E1E6676E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56413A77-F0E4-431A-9CCE-825E1E6676E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56413A77-F0E4-431A-9CCE-825E1E6676E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56413A77-F0E4-431A-9CCE-825E1E6676E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{713DB6A0-BB3D-45C3-B284-8CC33C823305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{713DB6A0-BB3D-45C3-B284-8CC33C823305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{713DB6A0-BB3D-45C3-B284-8CC33C823305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{713DB6A0-BB3D-45C3-B284-8CC33C823305}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D1855FA-CFA0-43B1-8A1A-24771CC633AB} = {460ED5ED-B92D-4E80-BCD9-DB3388D0983B}
+		{299569B6-608E-43C5-9218-812CEF8E023A} = {CF9DA16A-2E5F-4D0F-9B22-C3E19D70ADEB}
+		{7F8C9FA3-AD73-4031-8949-724114F64D7A} = {CF9DA16A-2E5F-4D0F-9B22-C3E19D70ADEB}
+		{5DEE1848-8D0C-4E60-B96C-B1EA505E08A1} = {8CD4086B-F6D1-4951-A3F2-08E825EF3E56}
+		{ABCAB6DB-DF6A-42A3-B79E-8DDE2CD2A93C} = {8CD4086B-F6D1-4951-A3F2-08E825EF3E56}
+		{56413A77-F0E4-431A-9CCE-825E1E6676E3} = {8CD4086B-F6D1-4951-A3F2-08E825EF3E56}
+		{713DB6A0-BB3D-45C3-B284-8CC33C823305} = {5CEF3B5D-58D7-41DE-AB19-D1C6017ADB55}
+		{966C9529-28BC-47F8-9E65-281B4BC0FCC1} = {8CD4086B-F6D1-4951-A3F2-08E825EF3E56}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB874846-BD77-41F4-B11E-9A45561759EF}
+	EndGlobalSection
+EndGlobal

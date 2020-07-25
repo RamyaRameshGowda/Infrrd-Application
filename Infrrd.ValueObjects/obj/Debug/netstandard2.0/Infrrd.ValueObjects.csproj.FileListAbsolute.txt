@@ -1,0 +1,8 @@
+D:\Infrrd Application\Infrrd.ValueObjects\bin\Debug\netstandard2.0\Infrrd.ValueObjects.deps.json
+D:\Infrrd Application\Infrrd.ValueObjects\bin\Debug\netstandard2.0\Infrrd.ValueObjects.dll
+D:\Infrrd Application\Infrrd.ValueObjects\obj\Debug\netstandard2.0\Infrrd.ValueObjects.AssemblyInfoInputs.cache
+D:\Infrrd Application\Infrrd.ValueObjects\obj\Debug\netstandard2.0\Infrrd.ValueObjects.AssemblyInfo.cs
+D:\Infrrd Application\Infrrd.ValueObjects\obj\Debug\netstandard2.0\Infrrd.ValueObjects.csprojAssemblyReference.cache
+D:\Infrrd Application\Infrrd.ValueObjects\bin\Debug\netstandard2.0\Infrrd.ValueObjects.pdb
+D:\Infrrd Application\Infrrd.ValueObjects\obj\Debug\netstandard2.0\Infrrd.ValueObjects.dll
+D:\Infrrd Application\Infrrd.ValueObjects\obj\Debug\netstandard2.0\Infrrd.ValueObjects.pdb

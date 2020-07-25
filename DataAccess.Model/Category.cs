@@ -1,0 +1,12 @@
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+
+namespace DataAccess.Model
+{
+    public class Category
+    {
+        [Key]
+        public int Id { get; set; }
+        public string CategoryName { get; set; }
+    }
+}

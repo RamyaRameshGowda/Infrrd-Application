@@ -1,0 +1,13 @@
+D:\Infrrd Application\DataAccess.Implementation\bin\Debug\netstandard2.0\DataAccess.Contract.dll
+D:\Infrrd Application\DataAccess.Implementation\bin\Debug\netstandard2.0\DataAccess.Model.dll
+D:\Infrrd Application\DataAccess.Implementation\obj\Debug\netstandard2.0\DataAccess.Implementation.AssemblyInfoInputs.cache
+D:\Infrrd Application\DataAccess.Implementation\obj\Debug\netstandard2.0\DataAccess.Implementation.AssemblyInfo.cs
+D:\Infrrd Application\DataAccess.Implementation\obj\Debug\netstandard2.0\DataAccess.Implementation.csprojAssemblyReference.cache
+D:\Infrrd Application\DataAccess.Implementation\bin\Debug\netstandard2.0\DataAccess.Implementation.deps.json
+D:\Infrrd Application\DataAccess.Implementation\bin\Debug\netstandard2.0\DataAccess.Implementation.dll
+D:\Infrrd Application\DataAccess.Implementation\bin\Debug\netstandard2.0\DataAccess.Implementation.pdb
+D:\Infrrd Application\DataAccess.Implementation\bin\Debug\netstandard2.0\DataAccess.Contract.pdb
+D:\Infrrd Application\DataAccess.Implementation\bin\Debug\netstandard2.0\DataAccess.Model.pdb
+D:\Infrrd Application\DataAccess.Implementation\obj\Debug\netstandard2.0\DataAccess.Implementation.csproj.CopyComplete
+D:\Infrrd Application\DataAccess.Implementation\obj\Debug\netstandard2.0\DataAccess.Implementation.dll
+D:\Infrrd Application\DataAccess.Implementation\obj\Debug\netstandard2.0\DataAccess.Implementation.pdb

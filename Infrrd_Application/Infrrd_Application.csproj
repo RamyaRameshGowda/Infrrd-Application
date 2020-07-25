@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UserSecretsId>75d5630c-0191-4fd8-941a-504bf9c90cee</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0-preview.7.20365.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.0-preview.7.20365.15" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Business.Contract\Business.Contract.csproj" />
+    <ProjectReference Include="..\Business.Implementation\Business.Implementation.csproj" />
+    <ProjectReference Include="..\DataAccess.Contract\DataAccess.Contract.csproj" />
+    <ProjectReference Include="..\DataAccess.Implementation\DataAccess.Implementation.csproj" />
+    <ProjectReference Include="..\Infrrd.ValueObjects\Infrrd.ValueObjects.csproj" />
+  </ItemGroup>
+
+</Project>

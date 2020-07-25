@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Business.Contract\Business.Contract.csproj" />
+    <ProjectReference Include="..\DataAccess.Contract\DataAccess.Contract.csproj" />
+    <ProjectReference Include="..\Infrrd.ValueObjects\Infrrd.ValueObjects.csproj" />
+  </ItemGroup>
+
+</Project>
